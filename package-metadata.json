@@ -1,0 +1,5 @@
+{
+	"version": "1.0.0", 
+	"description": "syntax highlight for MS IDL (midl).", 
+	"url": "https://github.com/andik/IDL-Syntax"
+}
