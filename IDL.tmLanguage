@@ -5,6 +5,7 @@
 	<key>fileTypes</key>
 	<array>
 		<string>idl</string>
+		<string>webidl</string>
 	</array>
 	<key>firstLineMatch</key>
 	<string>-[*]-( Mode:)? C -[*]-</string>
