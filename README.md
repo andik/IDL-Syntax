@@ -4,6 +4,8 @@ This package provides a simple IDL (Microsoft midl, Mozilla WebIDL) syntax highl
 
 No fancy stuff here, no additional functionality, no snippets
 
+If you want highlighting for WebIDL in the new Sublime Text Format, look at [the package from vinyldarkscratch](https://github.com/vinyldarkscratch/WebIDL-Sublime).
+
 ## Note about Scopes
 (This is only due to the use of Textmate Syntax highlighting which seems to have a worldwide global namespace. It has little effect to the end user.)
 
