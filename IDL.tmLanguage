@@ -439,7 +439,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(BOOL|BYTE|CLSID|COLORREF|DECIMAL|DOUBLE|DWORD|FLOAT|GUID|HDC|HRESULT|HWND|IDispatch|INT|IUnknown|IWeakReference|LONG|LPSTR|LPWSTR|MSG|OLE_COLOR|RECT|REFIID|SHORT|TCHAR|UINT|UINT_PTR|ULONG|ULONGLONG|VARIANT_BOOL)\b</string>
+			<string>\b(__int32|BOOL|BYTE|CLSID|COLORREF|DECIMAL|DOUBLE|DWORD|FLOAT|GUID|HDC|HRESULT|HWND|IDispatch|INT|IUnknown|IWeakReference|LONG|LPSTR|LPWSTR|MSG|OLE_COLOR|RECT|REFIID|SHORT|TCHAR|UINT|UINT_PTR|ULONG|ULONGLONG|VARIANT_BOOL)\b</string>
 			<key>name</key>
 			<string>storage.type.windows.webidl</string>
 		</dict>
@@ -636,7 +636,7 @@
 			<array>
 				<dict>
 					<key>begin</key>
-					<string>([A-Za-z_][A-Za-z0-9_]*+)\b\(</string>
+					<string>([A-Za-z_][A-Za-z0-9_]*+)\b\s*\(</string>
 					<key>beginCaptures</key>
 					<dict>
 						<key>1</key>
